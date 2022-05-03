@@ -33,77 +33,77 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo1l0jjmvdtj4c3f8cxzzgfhq0zhdzf2x8cgpg056",
+          "address": "osmo1phaxpevm5wecex2jyaqty2a4v02qj7qmlmzk5a",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo13wywdhs4pu605ra7f85aczcnmfhdu4xfrphlyp",
+          "address": "osmo1cyyzpxplxdzkeea7kwsydadg87357qnahakaks",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo13vzhfxds5sflq2hsq77z3clztkdxs30mwza78s",
+          "address": "osmo18s5lynnmx37hq4wlrw9gdn68sg2uxp5rgk26vv",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo19fzuy7e8cy8y4v9dv6gv0xtpdpqt530sf8ctn9",
+          "address": "osmo1qwexv7c6sm95lwhzn9027vyu2ccneaqad4w8ka",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo12jlcxnyh0gxjtvy4cdxlwqggw39w5dhg7wq8gh",
+          "address": "osmo14hcxlnwlqtq75ttaxf674vk6mafspg8xwgnn53",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo1gp5yl0x8dcj42xmx7hyjp7j5fwe788ht4keanc",
+          "address": "osmo12rr534cer5c0vj53eq4y32lcwguyy7nndt0u2t",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo1hrt9t9wc7q6htgq3xhss4g9txxn9mchgd5jf0c",
+          "address": "osmo1nt33cjd5auzh36syym6azgc8tve0jlvklnq7jq",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo1axxc8sswmvwd5q3hgq6upz9dejj8qadsgw5g53",
+          "address": "osmo10qfrpash5g2vk3hppvu45x0g860czur8ff5yx0",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo1hguhwtag9tfsva0n2ejugkhm48txu20eql882z",
+          "address": "osmo1f4tvsdukfwh6s9swrc24gkuz23tp8pd3e9r5fa",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo1g44fj3swmf3muzh8rd72ffr7pqld8jasu2fmc7",
+          "address": "osmo1myv43sqgnj5sm4zl98ftl45af9cfzk7nhjxjqh",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "osmo1etkjkyrknvue3w6mlv76c6dhm3e00q5xvz5p4c",
+          "address": "osmo14gs9zqh8m49yy9kscjqu9h72exyf295afg6kgk",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -120,7 +120,7 @@
       },
       "balances": [
         {
-          "address": "osmo19fzuy7e8cy8y4v9dv6gv0xtpdpqt530sf8ctn9",
+          "address": "osmo1phaxpevm5wecex2jyaqty2a4v02qj7qmlmzk5a",
           "coins": [
             {
               "denom": "uion",
@@ -133,7 +133,7 @@
           ]
         },
         {
-          "address": "osmo1gp5yl0x8dcj42xmx7hyjp7j5fwe788ht4keanc",
+          "address": "osmo1cyyzpxplxdzkeea7kwsydadg87357qnahakaks",
           "coins": [
             {
               "denom": "uion",
@@ -146,7 +146,7 @@
           ]
         },
         {
-          "address": "osmo1g44fj3swmf3muzh8rd72ffr7pqld8jasu2fmc7",
+          "address": "osmo18s5lynnmx37hq4wlrw9gdn68sg2uxp5rgk26vv",
           "coins": [
             {
               "denom": "uion",
@@ -159,7 +159,7 @@
           ]
         },
         {
-          "address": "osmo12jlcxnyh0gxjtvy4cdxlwqggw39w5dhg7wq8gh",
+          "address": "osmo1qwexv7c6sm95lwhzn9027vyu2ccneaqad4w8ka",
           "coins": [
             {
               "denom": "uion",
@@ -172,7 +172,7 @@
           ]
         },
         {
-          "address": "osmo13vzhfxds5sflq2hsq77z3clztkdxs30mwza78s",
+          "address": "osmo14hcxlnwlqtq75ttaxf674vk6mafspg8xwgnn53",
           "coins": [
             {
               "denom": "uion",
@@ -185,7 +185,7 @@
           ]
         },
         {
-          "address": "osmo13wywdhs4pu605ra7f85aczcnmfhdu4xfrphlyp",
+          "address": "osmo12rr534cer5c0vj53eq4y32lcwguyy7nndt0u2t",
           "coins": [
             {
               "denom": "uion",
@@ -198,7 +198,7 @@
           ]
         },
         {
-          "address": "osmo1hrt9t9wc7q6htgq3xhss4g9txxn9mchgd5jf0c",
+          "address": "osmo1nt33cjd5auzh36syym6azgc8tve0jlvklnq7jq",
           "coins": [
             {
               "denom": "uion",
@@ -211,7 +211,7 @@
           ]
         },
         {
-          "address": "osmo1hguhwtag9tfsva0n2ejugkhm48txu20eql882z",
+          "address": "osmo10qfrpash5g2vk3hppvu45x0g860czur8ff5yx0",
           "coins": [
             {
               "denom": "uion",
@@ -224,7 +224,7 @@
           ]
         },
         {
-          "address": "osmo1etkjkyrknvue3w6mlv76c6dhm3e00q5xvz5p4c",
+          "address": "osmo1f4tvsdukfwh6s9swrc24gkuz23tp8pd3e9r5fa",
           "coins": [
             {
               "denom": "uion",
@@ -237,7 +237,7 @@
           ]
         },
         {
-          "address": "osmo1axxc8sswmvwd5q3hgq6upz9dejj8qadsgw5g53",
+          "address": "osmo1myv43sqgnj5sm4zl98ftl45af9cfzk7nhjxjqh",
           "coins": [
             {
               "denom": "uion",
@@ -250,7 +250,7 @@
           ]
         },
         {
-          "address": "osmo1l0jjmvdtj4c3f8cxzzgfhq0zhdzf2x8cgpg056",
+          "address": "osmo14gs9zqh8m49yy9kscjqu9h72exyf295afg6kgk",
           "coins": [
             {
               "denom": "uion",
@@ -369,11 +369,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "osmo1l0jjmvdtj4c3f8cxzzgfhq0zhdzf2x8cgpg056",
-                "validator_address": "osmovaloper1l0jjmvdtj4c3f8cxzzgfhq0zhdzf2x8cjkqvra",
+                "delegator_address": "osmo1phaxpevm5wecex2jyaqty2a4v02qj7qmlmzk5a",
+                "validator_address": "osmovaloper1phaxpevm5wecex2jyaqty2a4v02qj7qm9v24r6",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "xHEc+5ELrDhi7nqmSAMiTnxd0T4sQakp09/aEmrCoMw="
+                  "key": "/zGmkgCWRFsJLETAzlzYsbu7EHS5HWpaSyR22rlFM68="
                 },
                 "value": {
                   "denom": "uosmo",
@@ -391,15 +391,15 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AxJQidlFCHm2xtcY0rxY/6ApAy449ljnzA6Sg7eSvq4E"
+                  "key": "AkNVLtIlk2c3zweQXS6jyVshzVhAy0M59crUeksc2pak"
                 },
                 "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
+                    "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                    }
                 },
                 "sequence": "0"
-              }
+              } 
             ],
             "fee": {
               "amount": [],
@@ -409,7 +409,7 @@
             }
           },
           "signatures": [
-            "opNgntPiDpPRqycsjLbUAxPT1QlQf0/XP8YrS15YbQdJzSVSUSPkrriVK9cX1IsMvW9E6iUWQzEJer6UVmaErw=="
+              "XMINo67tEIyf92SiK0zcZ1I9RnhVb3rHUgUOpCYKqfliHGwxhZFyVv6aAVfONa/HitxGq+dKpkHjKGdcRE0yZA=="
           ]
         }
       ]
