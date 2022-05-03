@@ -67,8 +67,6 @@ $ docker-compose rm
 
 ## Integrations
 
-You can integrate LocalOsmosis in Terra Station, `terrad`, and the Terra JavaScript and Python SDKs.
-
 ### osmosisd
 
 1. Ensure the same version of `osmosisd` and LocalOsmosis are installed.
