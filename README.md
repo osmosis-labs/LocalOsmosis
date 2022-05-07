@@ -1,6 +1,4 @@
----
-title: LocalOsmosis
----
+# LocalOsmosis
 
 ## What is LocalOsmosis?
 
