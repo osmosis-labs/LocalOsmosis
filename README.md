@@ -15,18 +15,11 @@ LocalOsmosis has the following advantages over a public testnet:
 
 ## Prerequisites
 
-- [Docker](https://www.docker.com/)
-```
-sudo apt-get remove docker docker-engine docker.io
-sudo apt-get update
-sudo apt install docker.io -y
-```
+- [`Docker`](https://www.docker.com/)
 - [`docker-compose`](https://github.com/docker/compose)
-```
-sudo apt install docker-compose -y
-```
-- [Osmosisd](https://get.osmosis.zone)
-  * We will be using osmosisd outside of the Docekr container in order to easily communicate with the local network
+- [`Osmosisd`](https://get.osmosis.zone)
+  * Select option 3 (localosmosis), the installer will configure everything for you. 
+  * The osmosisd dameon on your local computer is used to communicate with the localosmosis daemin running inside the Docker container. 
 - Supported known architecture: x86_64
 - 16+ GB of RAM is recommended
 
@@ -71,9 +64,9 @@ $ docker-compose rm
 
 ### osmosisd
 
-1. Ensure the same version of `osmosisd` and LocalOsmosis are installed.
+1. Ensure the same version of `osmosisd` is present in your local computer and LocalOsmosis Docker container. You can check the version of localosmosis by checking the image in the docker-compose.yml file and the version of your osmosisd on your local machine with `osmosisd version`
 
-2. Use `osmosisd` to talk to your LocalOsmosis `osmosisd` node:
+2. Use `osmosisd` from your local machine to talk to your LocalOsmosis `osmosisd` node:
 
 ```sh
 osmosisd status

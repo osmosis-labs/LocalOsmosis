@@ -9,4 +9,8 @@ services:
       - ./data:/osmosis/.osmosisd/data
     command:
       - start
-    network_mode: host
+    ports:
+      - "26657:26657"
+      - "1317:1317"
+      - "9090:9090"
+      - "9091:9091"
