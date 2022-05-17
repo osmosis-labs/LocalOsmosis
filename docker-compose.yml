@@ -3,7 +3,7 @@ version: "3"
 services:
   osmosisd:
     image: osmolabs/osmosis-dev:v9.0.0-local
-    user: "${UID}:${GID}"
+    user: "root:root"
     volumes:
       - ./config:/osmosis/.osmosisd/config
       - ./data:/osmosis/.osmosisd/data
