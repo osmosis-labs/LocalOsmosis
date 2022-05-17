@@ -2,7 +2,7 @@ version: "3"
 
 services:
   osmosisd:
-    image: osmolabs/osmosis:7.1.0
+    image: osmolabs/osmosis:7.3.0
     user: "${UID}:${GID}"
     volumes:
       - ./config:/osmosis/.osmosisd/config
