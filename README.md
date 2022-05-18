@@ -39,7 +39,7 @@ cd LocalOsmosis
 - Start LocalOsmosis:
 
 ```sh
-docker-compose up
+make start
 ```
 
 Your environment now contains:
@@ -48,16 +48,16 @@ Your environment now contains:
 - LCD running on http://localhost:1317
 
 
-Stop LocalOsmosis:
+Stop LocalOsmosis (and retain chain data):
 
 ```sh
-$ docker-compose stop
+make stop
 ```
 
-Reset the world state:
+Stop LocalOsmosis (and delete chain data):
 
 ```sh
-$ docker-compose rm
+make restart
 ```
 
 ## Integrations
