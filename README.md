@@ -34,6 +34,19 @@ cd LocalOsmosis
 
 2. Make sure your Docker daemon is running in the background and [`docker-compose`](https://github.com/docker/compose) is installed.
 
+If running on linux, you can install these tools with the following commands:
+
+- docker
+```
+sudo apt-get remove docker docker-engine docker.io
+sudo apt-get update
+sudo apt install docker.io -y
+```
+- docker-compose
+```
+sudo apt install docker-compose -y
+```
+
 ## Start, stop, and reset LocalOsmosis
 
 - Start LocalOsmosis:
