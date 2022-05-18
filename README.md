@@ -28,7 +28,7 @@ LocalOsmosis has the following advantages over a public testnet:
 1. Run the following commands::
 
 ```sh
-git clone https://github.com/czarcas7ic/LocalOsmosis.git
+git clone https://github.com/osmosis-labs/LocalOsmosis.git
 cd LocalOsmosis
 ```
 
