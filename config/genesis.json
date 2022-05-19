@@ -582,7 +582,6 @@
           "address": ""
         },
         "instantiate_default_permission": "Everybody",
-        "max_wasm_code_size": "1228800"
       },
       "codes": [],
       "contracts": [],
