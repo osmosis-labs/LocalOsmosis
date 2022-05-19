@@ -1,10 +1,10 @@
 start:
-	docker-compose up
+	sudo docker-compose up
 
 stop:
-	docker-compose stop
+	sudo docker-compose stop
 
 restart:
-	docker-compose rm
+	sudo docker-compose rm
 	rm -r ./data/*
 	cp priv_validator_state.json ./data
