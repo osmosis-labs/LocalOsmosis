@@ -2,7 +2,7 @@ version: "3"
 
 services:
   osmosisd:
-    image: osmolabs/osmosis-dev:v9.0.0-rc0-debug
+    image: osmolabs/osmosis-dev:v9.0.0-rc0
     user: "root:root"
     volumes:
       - ./config:/osmosis/.osmosisd/config
