@@ -120,7 +120,7 @@
       },
       "balances": [
         {
-          "address": "osmo1phaxpevm5wecex2jyaqty2a4v02qj7qmlmzk5a",
+          "address": "osmo1qwexv7c6sm95lwhzn9027vyu2ccneaqad4w8ka",
           "coins": [
             {
               "denom": "uion",
@@ -133,7 +133,7 @@
           ]
         },
         {
-          "address": "osmo1cyyzpxplxdzkeea7kwsydadg87357qnahakaks",
+          "address": "osmo1phaxpevm5wecex2jyaqty2a4v02qj7qmlmzk5a",
           "coins": [
             {
               "denom": "uion",
@@ -159,20 +159,7 @@
           ]
         },
         {
-          "address": "osmo1qwexv7c6sm95lwhzn9027vyu2ccneaqad4w8ka",
-          "coins": [
-            {
-              "denom": "uion",
-              "amount": "100000000000"
-            },
-            {
-              "denom": "uosmo",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
-          "address": "osmo14hcxlnwlqtq75ttaxf674vk6mafspg8xwgnn53",
+          "address": "osmo1f4tvsdukfwh6s9swrc24gkuz23tp8pd3e9r5fa",
           "coins": [
             {
               "denom": "uion",
@@ -198,19 +185,6 @@
           ]
         },
         {
-          "address": "osmo1nt33cjd5auzh36syym6azgc8tve0jlvklnq7jq",
-          "coins": [
-            {
-              "denom": "uion",
-              "amount": "100000000000"
-            },
-            {
-              "denom": "uosmo",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
           "address": "osmo10qfrpash5g2vk3hppvu45x0g860czur8ff5yx0",
           "coins": [
             {
@@ -224,20 +198,7 @@
           ]
         },
         {
-          "address": "osmo1f4tvsdukfwh6s9swrc24gkuz23tp8pd3e9r5fa",
-          "coins": [
-            {
-              "denom": "uion",
-              "amount": "100000000000"
-            },
-            {
-              "denom": "uosmo",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
-          "address": "osmo1myv43sqgnj5sm4zl98ftl45af9cfzk7nhjxjqh",
+          "address": "osmo1nt33cjd5auzh36syym6azgc8tve0jlvklnq7jq",
           "coins": [
             {
               "denom": "uion",
@@ -261,6 +222,45 @@
               "amount": "100000000000"
             }
           ]
+        },
+        {
+          "address": "osmo14hcxlnwlqtq75ttaxf674vk6mafspg8xwgnn53",
+          "coins": [
+            {
+              "denom": "uion",
+              "amount": "100000000000"
+            },
+            {
+              "denom": "uosmo",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "osmo1cyyzpxplxdzkeea7kwsydadg87357qnahakaks",
+          "coins": [
+            {
+              "denom": "uion",
+              "amount": "100000000000"
+            },
+            {
+              "denom": "uosmo",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "osmo1myv43sqgnj5sm4zl98ftl45af9cfzk7nhjxjqh",
+          "coins": [
+            {
+              "denom": "uion",
+              "amount": "100000000000"
+            },
+            {
+              "denom": "uosmo",
+              "amount": "100000000000"
+            }
+          ]
         }
       ],
       "supply": [],
@@ -273,19 +273,6 @@
     "capability": {
       "index": "1",
       "owners": []
-    },
-    "claim": {
-      "module_account_balance": {
-        "denom": "uosmo",
-        "amount": "0"
-      },
-      "params": {
-        "airdrop_start_time": "0001-01-01T00:00:00Z",
-        "duration_until_decay": "3600s",
-        "duration_of_decay": "18000s",
-        "claim_denom": "uosmo"
-      },
-      "claim_records": []
     },
     "crisis": {
       "constant_fee": {
@@ -394,12 +381,12 @@
                   "key": "AkNVLtIlk2c3zweQXS6jyVshzVhAy0M59crUeksc2pak"
                 },
                 "mode_info": {
-                    "single": {
-                        "mode": "SIGN_MODE_DIRECT"
-                    }
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
                 },
                 "sequence": "0"
-              } 
+              }
             ],
             "fee": {
               "amount": [],
@@ -409,7 +396,7 @@
             }
           },
           "signatures": [
-              "XMINo67tEIyf92SiK0zcZ1I9RnhVb3rHUgUOpCYKqfliHGwxhZFyVv6aAVfONa/HitxGq+dKpkHjKGdcRE0yZA=="
+            "XMINo67tEIyf92SiK0zcZ1I9RnhVb3rHUgUOpCYKqfliHGwxhZFyVv6aAVfONa/HitxGq+dKpkHjKGdcRE0yZA=="
           ]
         }
       ]
@@ -561,6 +548,17 @@
       "intermediary_accounts": [],
       "intemediary_account_connections": []
     },
+    "tokenfactory": {
+      "params": {
+        "denom_creation_fee": [
+          {
+            "denom": "uosmo",
+            "amount": "10000000"
+          }
+        ]
+      },
+      "factory_denoms": []
+    },
     "transfer": {
       "port_id": "transfer",
       "denom_traces": [],
@@ -581,8 +579,7 @@
           "permission": "Everybody",
           "address": ""
         },
-        "instantiate_default_permission": "Everybody",
-        "max_wasm_code_size": "1228800"
+        "instantiate_default_permission": "Everybody"
       },
       "codes": [],
       "contracts": [],
