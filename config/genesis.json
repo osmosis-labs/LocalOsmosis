@@ -331,7 +331,7 @@
         "pool_creation_fee": [
           {
             "denom": "uosmo",
-            "amount": "1000000000"
+            "amount": "100000000"
           }
         ]
       }
