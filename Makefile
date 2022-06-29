@@ -4,6 +4,9 @@ CURRENT_GID := $(shell id -g)
 start:
 	env UID=${CURRENT_UID} GID=${CURRENT_GID}  docker-compose up
 
+startd:
+	env UID=${CURRENT_UID} GID=${CURRENT_GID}  docker-compose up -d
+
 stop:
 	docker-compose stop
 
