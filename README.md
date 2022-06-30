@@ -163,3 +163,47 @@ LocalOsmosis is pre-configured with one validator and 10 accounts with ION and O
 | test8     | `osmo1f4tvsdukfwh6s9swrc24gkuz23tp8pd3e9r5fa`                                                           | `cream sport mango believe inhale text fish rely elegant below earth april wall rug ritual blossom cherry detail length blind digital proof identify ride`                 |
 | test9     | `osmo1myv43sqgnj5sm4zl98ftl45af9cfzk7nhjxjqh`                                                           | `index light average senior silent limit usual local involve delay update rack cause inmate wall render magnet common feature laundry exact casual resource hundred`       |
 | test10    | `osmo14gs9zqh8m49yy9kscjqu9h72exyf295afg6kgk`                                                           | `prefer forget visit mistake mixture feel eyebrow autumn shop pair address airport diesel street pass vague innocent poem method awful require hurry unhappy shoulder`     |
+
+## Common issues
+
+### Docker permissions problems
+
+In case you get permission denied while trying to run `make start`
+
+```
+make start
+
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.40/containers/json: dial unix /var/run/docker.sock: connect: permission denied
+```
+
+**Check that the docker engine is running:**
+
+```bash
+sudo systemctl status docker
+```
+
+If not:
+
+```bash
+# Configure Docker to start on boot
+sudo systemctl enable docker.service
+
+# Start docker service
+sudo systemctl start docker.service
+```
+
+**Ensure that the current user is in the `docker` group:**
+
+1. Create the docker group and add your user
+
+```bash
+# Create the docker group
+sudo groupadd docker
+
+# Add your user to the docker group.
+sudo usermod -aG docker $USER
+```
+
+2. Log out and log back in so that your group membership is re-evaluated.
+
+More details can be found [here](https://docs.docker.com/engine/install/linux-postinstall/).
