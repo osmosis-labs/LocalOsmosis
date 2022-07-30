@@ -1,4 +1,4 @@
-# LocalOsmosis
+# Local Relayer
 
 ## What is LocalOsmosis?
 

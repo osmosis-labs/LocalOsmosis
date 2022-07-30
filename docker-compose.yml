@@ -1,13 +1,14 @@
 version: "3"
 
 services:
+
   osmosisd:
     image: osmolabs/osmosis:10.0.1
     user: $UID:$GID
     volumes:
-      - ./config:/osmosis/.osmosisd/config
-      - ./data:/osmosis/.osmosisd/data
-      - ./wasm:/osmosis/.osmosisd/wasm
+      - ./osmosis/config:/osmosis/.osmosisd/config
+      - ./osmosis/data:/osmosis/.osmosisd/data
+      - ./osmosis/wasm:/osmosis/.osmosisd/wasm
     command:
       - start
     ports:
@@ -15,3 +16,19 @@ services:
       - "1317:1317"
       - "9090:9090"
       - "9091:9091"
+  
+  gaiad:
+    image: osmolabs/gaia:7.0.1
+    user: $UID:$GID
+    volumes:
+      - ./gaia/config:/gaia/.gaiad/config
+      - ./gaia/data:/gaia/.gaiad/data
+    command:
+      - start
+    ports:
+      - "26657:26657"
+      - "1317:1317"
+      - "9090:9090"
+      - "9091:9091"
+  
+  
