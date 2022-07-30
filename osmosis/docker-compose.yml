@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+
+  osmosisd:
+    image: osmolabs/osmosis:10.0.1
+    user: $UID:$GID
+    volumes:
+      - ./config:/osmosis/.osmosisd/config
+      - ./data:/osmosis/.osmosisd/data
+      - ./wasm:/osmosis/.osmosisd/wasm
+    command:
+      - start
+    ports:
+      - "26656:26656"
+      - "26657:26657"
+      - "1317:1317"
+  
+  

@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+
+  junod:
+    image: ghcr.io/cosmoscontracts/juno:9.0
+    # user: $UID:$GID
+    user: 0:0
+    volumes:
+    - .:/root/.juno/
+    command: ./setup_and_run.sh juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
+    ports:
+      - "26656:26656"
+      - "26657:26657"
+      - "1317:1317"
+    environment:
+      - GAS_LIMIT=${GAS_LIMIT:-100000000}
+      - STAKE_TOKEN=${STAKE_TOKEN:-ustake}
+      - CHAIN_ID=${CHAIN_ID:-localjuno}
+      - MONIKER=${MONIKER:-node-0}
+  
+  
