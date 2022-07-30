@@ -12,8 +12,11 @@ stop:
 
 reset:
 	docker-compose rm
-	rm -rf ./data/ || true 
-	mkdir -p ./data/
-	cp priv_validator_state.json ./data
+	rm -rf ./osmosis/data/ || true 
+	rm -rf ./juno/data/ || true 
+	mkdir -p ./osmosis/data/
+	mkdir -p ./juno/data/
+	cp ./osmosis/priv_validator_state.json ./osmosis/data
+	cp ./juno/priv_validator_state.json ./juno/data
 
 restart: reset start

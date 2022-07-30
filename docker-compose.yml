@@ -6,29 +6,31 @@ services:
     image: osmolabs/osmosis:10.0.1
     user: $UID:$GID
     volumes:
-      - ./osmosis/config:/osmosis/.osmosisd/config
-      - ./osmosis/data:/osmosis/.osmosisd/data
-      - ./osmosis/wasm:/osmosis/.osmosisd/wasm
+      - ./osmosis:/osmosis/.osmosisd
     command:
       - start
     ports:
+      - "26656:26656"
       - "26657:26657"
       - "1317:1317"
-      - "9090:9090"
-      - "9091:9091"
   
-  gaiad:
-    image: osmolabs/gaia:7.0.1
-    user: $UID:$GID
+  junod:
+    image: ghcr.io/cosmoscontracts/juno:9.0
+    user: 0:0
     volumes:
-      - ./gaia/config:/gaia/.gaiad/config
-      - ./gaia/data:/gaia/.gaiad/data
-    command:
-      - start
+    - ./juno/:/root/.juno/
+    command: 
+    - ./setup_and_run.sh 
+    - juno16g2rahf5846rxzp3fwlswy08fz8ccuwk03k57y
     ports:
-      - "26657:26657"
-      - "1317:1317"
-      - "9090:9090"
-      - "9091:9091"
+      - "36656:26656"
+      - "36657:26657"
+      - "3317:1317"
+    environment:
+      - GAS_LIMIT=${GAS_LIMIT:-100000000}
+      - STAKE_TOKEN=${STAKE_TOKEN:-ustake}
+      - CHAIN_ID=${CHAIN_ID:-localjuno}
+      - MONIKER=${MONIKER:-node-0}
+  
   
   
