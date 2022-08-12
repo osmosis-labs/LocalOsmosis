@@ -1,5 +1,14 @@
 # LocalOsmosis
 
+## Important note
+Please note that if you are working with the [Osmosis](https://github.com/osmosis-labs/osmosis/) repo you can also easily run a testnet by using some of the [make commands](https://github.com/osmosis-labs/osmosis/blob/main/Makefile), for example: 
+
+```
+make localnet-start
+make localnet-build
+```
+
+
 ## What is LocalOsmosis?
 
 LocalOsmosis (a fork of LocalTerra) is a complete Osmosis testnet and ecosystem containerized with Docker and orchestrated with a simple `docker-compose` file. It simplifies the way smart-contract developers test their contracts in a sandbox before they deploy them on a testnet or mainnet.
