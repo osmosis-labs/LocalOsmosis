@@ -1,5 +1,9 @@
 # LocalOsmosis
 
+## Sunet
+
+The LocalOsmosis repo has been sunset in favor of the LocalOsmosis that lives within the Osmosis repo itself! 
+
 ## Important note
 Please note that if you are working with the [Osmosis](https://github.com/osmosis-labs/osmosis/) repo you can also easily run a testnet by using some of the [make commands](https://github.com/osmosis-labs/osmosis/blob/main/Makefile), for example: 
 
